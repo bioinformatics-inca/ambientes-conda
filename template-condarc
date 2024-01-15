@@ -1,0 +1,13 @@
+channels:
+  - bioconda
+  - conda-forge
+  - r
+  - defaults
+auto_activate_base: false
+envs_dirs:
+  - /YOURPROJECTS/lib/conda_envs
+  - /HIDDEN/conda_envs/$USER
+pkgs_dirs:
+  - /YOURPROJECTS/lib/conda_pkgs
+  - /HIDDEN/conda_pkgs/$USER                                                                                                                                                                             
+env_prompt: ({name})
