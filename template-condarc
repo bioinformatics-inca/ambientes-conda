@@ -5,9 +5,9 @@ channels:
   - defaults
 auto_activate_base: false
 envs_dirs:
-  - /YOURPROJECTS/lib/conda_envs
   - /HIDDEN/conda_envs/$USER
+  - /YOURPROJECTS/lib/conda_envs
 pkgs_dirs:
-  - /YOURPROJECTS/lib/conda_pkgs
-  - /HIDDEN/conda_pkgs/$USER                                                                                                                                                                             
+  - /HIDDEN/conda_pkgs/$USER    
+  - /YOURPROJECTS/lib/conda_pkgs                                                                                                                                                                         
 env_prompt: ({name})
