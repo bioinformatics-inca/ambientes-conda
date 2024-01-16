@@ -7,5 +7,5 @@ Tutorial sobre o uso de ambiente conda na Plataforma Multiusuário de Bioinform�
 
 [Usando ambiente conda na sessão interativa](condaUse.md)
 
-[Usando ambiente conda em script]
+[Usando ambiente conda em script](condaUseScript.md)
 
