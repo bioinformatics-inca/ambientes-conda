@@ -5,7 +5,7 @@ Tutorial sobre o uso de ambiente conda na Plataforma Multiusuário de Bioinform�
 
 [Instalando programas com CONDA package manager no cluster HPC](installPackagesConda.md)
 
-[Usando ambiente conda na sessão interativa]
+[Usando ambiente conda na sessão interativa](condaUse.md)
 
 [Usando ambiente conda em script]
 
