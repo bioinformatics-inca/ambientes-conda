@@ -1,6 +1,6 @@
 # Utilizando programas do ambiente CONDA em seus scripts de submissão do SLURM
 
-Estes comandos devem ser incluídos em seus scripts de submissão do SLURM.
+Estes comandos devem ser incluídos em seus [scripts](example-script-conda.slurm) de submissão do SLURM.
 
 1 - Carregue o módulo do miniconda3
 
