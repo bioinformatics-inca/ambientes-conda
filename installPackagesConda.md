@@ -25,12 +25,12 @@ eval "$(conda shell.bash hook)"
 
 3 - Crie o ambiente (estrutura de diretórios e arquivos de configuração) onde serão instalados os pacotes usando o comando ``conda create``
 ~~~
-conda create --prefix /path/to/your/environment
+conda create --prefix /ENDERECO-DO-SEU-PROJETO/lib/conda_envs/meuenvironment
 ~~~
 
 4 - Ative este ambiente usando o comando ``conda activate`` e informando o endereço do ambiente
 ~~~
-conda activate /path/to/your/environment
+conda activate /ENDERECO-DO-SEU-PROJETO/lib/conda_envs/meuenvironment
 ~~~
 
 5 - Instale os pacotes usando o comando ``conda install``
