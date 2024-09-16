@@ -5,10 +5,10 @@ Estes comandos devem ser executados para usar interativamente o ambiente com seu
 
 0 - Antes de executar suas análises, inicie uma sessão interativa através do SLURM:
 ~~~
-srun --exclusive=user --pty bash -i
+srun --pty bash -i
 ~~~
 
-PS: a diretiva ``--exclusive=user`` solicita ao SLURM uma sessão em nó compartilhado apenas com sessões do mesmo usuário. Importante quando a tarefa exige muitos recursos computacionais, evitando que as tarefas de outros usuários sejam prejudicadas.
+PS: a diretiva ``--exclusive=user`` solicita ao SLURM uma sessão em nó compartilhado apenas com sessões do mesmo usuário. Importante quando a tarefa exige muitos recursos computacionais, evitando que as tarefas de outros usuários sejam prejudicadas. Não usar esta diretiva no shark.
 
 .
 
