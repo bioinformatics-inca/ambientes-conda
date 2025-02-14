@@ -2,7 +2,6 @@ channels:
   - bioconda
   - conda-forge
   - r
-  - defaults
 auto_activate_base: false
 envs_dirs:
   - /HIDDEN/conda_envs/$USER
